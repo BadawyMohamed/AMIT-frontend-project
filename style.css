@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.responsive {
+    display: none;
+}
+
+
+.sideContainer .x {
+    font-size: 20px;
+    color: grey;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    right:50px ;
+    top: 20px;
+    padding:3px 0px;
+}
+html , body {
+    height: 100%;
+}
+.sideContainer {
+    background-color:rgba(42, 128, 234, 0.94);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.covid{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(28, 56, 97)
+}
+
+i{
+    font-size: 25px;
+}
+.fa-virus {
+    color:#ff5162;
+}
+.fa-bars {
+    display: none;
+    color: rgb(28, 56, 97);
+    
+}
+
+#c19 {
+    color: rgb(80, 101, 142);
+}
+
+#logo {
+    height: auto;
+    width:200px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(28, 56, 97);
+}
+
+nav {
+    display: flex;
+    background-color: rgb(247, 249, 254);
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 850px;
+    align-items: center;
+}
+
+li {
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav button {
+    background-color: rgb(42, 129, 234);
+    border: none ;
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+aside button {
+    background-color: rgb(42, 129, 234);
+    border: none ;
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(42, 129, 234);
+}
+
+h1 {
+    float: right;
+}
+
+@media screen and (max-width:900px) {
+    nav ul{
+        display: none;
+    }
+    
+    nav {
+        justify-content: space-between;
+        display: none;
+    }
+    .fa-bars {
+        width: 50px;
+        display: block;
+    }
+    #logo {
+        width: 150px;
+        text-align: center;
+    }
+    .responsive{
+        display: block;
+    }
+    aside {
+        padding-top: 58.8px;
+        float: left;
+        width:40%;
+        height: 100%;
+        padding-left: 50px ;
+        
+        background-color: rgb(247, 249, 254);
+        
+    }
+    ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        height: 400px;
+    }
+    
+}
