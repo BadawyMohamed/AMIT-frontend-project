@@ -18,18 +18,21 @@
     height: 25px;
     border: none;
     position: absolute;
-    right:50px ;
+    right:40px ;
     top: 20px;
     padding:3px 0px;
+    cursor: pointer;
 }
 html , body {
     height: 100%;
 }
 .sideContainer {
+    display: none;
     background-color:rgba(42, 128, 234, 0.94);
     width: 100%;
     height: 100%;
     position: absolute;
+    top:0;
 }
 .covid{
     font-size: 25px;
@@ -85,7 +88,7 @@ li {
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
 }
-nav button {
+.dd {
     background-color: rgb(42, 129, 234);
     border: none ;
     border-radius: 25px;
@@ -93,15 +96,7 @@ nav button {
     height: 35px;
     color: white;
     font-weight: bold;
-}
-aside button {
-    background-color: rgb(42, 129, 234);
-    border: none ;
-    border-radius: 25px;
-    width: 120px;
-    height: 35px;
-    color: white;
-    font-weight: bold;
+    cursor: pointer;
 }
 
 a:hover{
@@ -112,6 +107,8 @@ h1 {
     float: right;
 }
 
+
+
 @media screen and (max-width:900px) {
     nav ul{
         display: none;
@@ -119,11 +116,11 @@ h1 {
     
     nav {
         justify-content: space-between;
-        display: none;
     }
     .fa-bars {
-        width: 50px;
+        width: auto;
         display: block;
+        margin-right: 25px;
     }
     #logo {
         width: 150px;
