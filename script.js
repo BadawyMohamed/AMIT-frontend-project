@@ -15,11 +15,9 @@ function hide (element) {
 }
 
 function activeSideNav (){
-    // hide(navBar);
     show(sideNav);
 }
 
 function closeSideNav() {
 hide(sideNav);
-// show(navBar);
 }
